@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'Self Hosted AGP'
 
 variables:
   solution: '**/*.sln'
